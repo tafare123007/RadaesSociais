@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+:root{
+    --cor-de-fundo:#021526;
+    --cor-primaria:#03346E;
+    --cor-secundaria:#6EACDA;
+    --cor-do-texto:#E2E2B6;
+}
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-do-texto);
+    font-family: "Afacad Flux";
+}
+header{
+    background-color: var(--cor-primaria);
+    color: var(--cor-do-texto);
+    text-align: center;
+    padding: 1rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 2rem 1rem 0;
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.8);
+    transition: transform (0,1s);
+}
+footer{
+    background-color: var(--cor-primaria);
+    color: var(--cor-do-texto);
+    text-align: center;
+    font-size: 2rem;
+    margin:15px
+}
