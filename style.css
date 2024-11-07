@@ -1,59 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
-    --cor-de-fundo:#021526;
-    --cor-primaria:#03346E;
-    --cor-secundaria:#6EACDA;
-    --cor-do-texto:#E2E2B6;
+    --cor-de-fundo:#150050;
+    --cor-primaria:#FB2576;
+    --cor-secundaria:#3F0071;
+    --cor-do-texto:#ffffff;
 }
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-body, html{
+body, html {
     margin: 0;
     padding: 0;
 }
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-do-texto);
-    font-family: "Afacad Flux";
+    font-family: "Exo 2", sans-serif;
 }
 header{
     background-color: var(--cor-primaria);
-    color: var(--cor-do-texto);
+    color: var(--cor-de-fundo);
     text-align: center;
-    padding: 1rem;
+    padding: 1px;
 }
 h1{
     font-size: 3rem;
     font-weight: 700;
+    margin-top: 20px;
 }
 nav{
     text-align: center;
     justify-content: center;
     font-weight: 500;
     font-size: 1.2rem;
+    margin-top: 15px;
+    display: flex;
 }
 nav a{
     text-decoration: none;
-    margin: 0 2rem 1rem 0;
+    margin:0 2rem 1rem 0;
 }
 nav a:hover{
     text-decoration: underline;
-    transform: scale(0.8);
-    transition: transform (0,1s);
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container_texto{
+font-size: 1.3rem;
+text-align:  center;
+padding: 2rem;
+border: var(--cor-primária) solid 2px;
 }
 footer{
     background-color: var(--cor-primaria);
-    color: var(--cor-do-texto);
-    text-align: center;
-    font-size: 2rem;
-    margin:15px
-}
-footer p{
+    display: flex;
+    color: var(--cor-de-fundo);
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
     margin-top: 15px;
-    
+    height: 3rem;
+    width: 100%;  
 }
